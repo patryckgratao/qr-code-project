@@ -44,3 +44,36 @@ body {
   color: hsl(220, 15%, 55%);
   padding-bottom: 34px;
 }
+
+@media screen and (max-width: 1024px) {
+  .main-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+  }
+
+  .qr-container {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    gap: 20px;
+  }
+
+  .qr-container img {
+    width: 90%;
+  }
+
+  .qr-container h2 {
+    font-size: 20px;
+    line-height: 25px;
+    padding: 0 30px;
+    margin: 0;
+  }
+
+  .qr-container span {
+    font-size: 14px;
+    line-height: 18px;
+    padding: 0 30px;
+    margin-bottom: 16px;
+  }
+}
